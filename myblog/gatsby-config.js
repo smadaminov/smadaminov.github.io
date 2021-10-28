@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Little {{ Nerd }} Adventure`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Sergey Madaminov`,
+      summary: `I'm an ordinary neurodiverse person who is into everything-computers. I contribute to open source, occasionally write software for monies, and trying to get a PhD in Computer Science at Stony Brook University. But before everything, I'm a proud dad for two beautiful and smart girls.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `CSIdiotSavant`,
     },
   },
   plugins: [
