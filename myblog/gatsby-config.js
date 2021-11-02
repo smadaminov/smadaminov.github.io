@@ -3,7 +3,7 @@ module.exports = {
     title: `Little {{ Nerd }} Adventure`,
     author: {
       name: `Sergey Madaminov`,
-      summary: `I'm an ordinary neurodiverse person who is into everything-computers. I contribute to open source, occasionally write software for monies, and trying to get a PhD in Computer Science at Stony Brook University. But before everything, I'm a proud dad for two beautiful and smart girls.`,
+      summary: `an ordinary neurodiverse person who is into everything-computers. I contribute to open source, occasionally write software for monies, and trying to get a PhD in Computer Science at Stony Brook University. But before everything, I'm doing my best to be the best dad possible for my two beautiful and smart girls.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -128,5 +128,7 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    'gatsby-plugin-mui-emotion',
+    'gatsby-plugin-top-layout',
   ],
 }

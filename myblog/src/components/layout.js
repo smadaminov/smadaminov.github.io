@@ -20,9 +20,17 @@ const Layout = ({ location, title, children }) => {
     )
   }
 
+  let mynews = (
+      <p>
+      My talk on new building system~{"\n"}
+      for OVS was accepted at OVSCON'21!
+      </p>
+  )
+
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
+      <div id="nr">{mynews}</div>
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with
