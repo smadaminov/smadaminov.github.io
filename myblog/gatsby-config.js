@@ -23,6 +23,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/content/books`,
+        name: `books`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
@@ -130,5 +137,6 @@ module.exports = {
     // `gatsby-plugin-offline`,
     'gatsby-plugin-mui-emotion',
     'gatsby-plugin-top-layout',
+    'gatsby-plugin-mdx',
   ],
 }

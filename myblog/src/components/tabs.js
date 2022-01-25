@@ -1,7 +1,7 @@
 import * as React from "react"
-import Box from '@mui/material/Box';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
+import Box from '@mui/material/Box'
+import Tabs from '@mui/material/Tabs'
+import Tab from '@mui/material/Tab'
 
 function LinkTab(props) {
   return (
@@ -28,6 +28,7 @@ const ZTabs = () => {
         <LinkTab label="Blog" href="/blog" />
         <LinkTab label="Open Source" href="/oss" />
         <LinkTab label="Research" href="/research" />
+        <LinkTab label="Books" href="/books" />
       </Tabs>
     </Box>
   );
