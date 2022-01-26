@@ -2,21 +2,19 @@ import * as React from "react"
 import Box from '@mui/material/Box'
 import Tabs from '@mui/material/Tabs'
 import Tab from '@mui/material/Tab'
+import { Link } from "gatsby"
 
 function LinkTab(props) {
   return (
     <Tab
-      component="a"
-      onClick={(event) => {
-        event.preventDefault();
-      }}
+      component={Link}
       {...props}
     />
   );
 }
 
-const ZTabs = () => {
-  const [value, setValue] = React.useState(0);
+const ZTabs = ({ navValue }) => {
+  const [value, setValue] = React.useState(parseInt({navValue}.navValue))
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -24,11 +22,11 @@ const ZTabs = () => {
 
   return (
     <Box sx={{ width: '100%' }}>
-      <Tabs value={value} onChange={handleChange} aria-label="nav tabs example">
-        <LinkTab label="Blog" href="/blog" />
-        <LinkTab label="Open Source" href="/oss" />
-        <LinkTab label="Research" href="/research" />
-        <LinkTab label="Books" href="/books" />
+      <Tabs value={value} onChange={handleChange} aria-label="navigation-tabs">
+        <LinkTab label="Blog" to="/blog" />
+        <LinkTab label="Open Source" to="/oss" />
+        <LinkTab label="Research" to="/research" />
+        <LinkTab label="Books" to="/books" />
       </Tabs>
     </Box>
   );
