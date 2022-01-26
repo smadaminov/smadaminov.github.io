@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-books-index-js",
+    "path": "/books/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Little {{ Nerd }} Adventure"}},"allMdx":{"nodes":[{"frontmatter":{"date":"July 24, 2021","title":"Self Taught Computer Scientist"},"id":"6aea75ff-61a0-5fe7-bd0d-e45a9ac60705","slug":"self-taught-cs"}]}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
