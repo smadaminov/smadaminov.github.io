@@ -30,7 +30,8 @@ export const query = graphql`
         title
       }
     }
-    	allMdx(sort: {fields: frontmatter___date, order: DESC}) {
+    	allMdx(sort: {fields: frontmatter___date, order: DESC},
+	       filter: {frontmatter: { type: {eq: "book"}}}) {
         	nodes {
             	frontmatter {
                 	date(formatString: "MMMM D, YYYY")
