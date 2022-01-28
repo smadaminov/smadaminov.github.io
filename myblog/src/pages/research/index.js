@@ -8,7 +8,7 @@ const MyResearch = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle} navValue="2">
-      <h3>Publications</h3>
+      <h1>Publications</h1>
       <ol style={{ listStyle: `none` }}>
         {papers.map(paper => {
           const title = paper.frontmatter.title
