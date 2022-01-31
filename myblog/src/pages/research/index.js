@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from "../../components/layout"
 import Publications from "../../components/publications"
 import Service from "../../components/service"
+import Teaching from "../../components/teaching"
 
 const MyResearch = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -11,6 +12,7 @@ const MyResearch = ({ data, location }) => {
     <Layout location={location} title={siteTitle} navValue="2">
       <Publications />
       <Service />
+      <Teaching />
     </Layout>
   )
 }
