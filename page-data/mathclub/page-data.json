@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-mathclub-index-js",
+    "path": "/mathclub/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Little {{ Nerd }} Adventure"}},"allMdx":{"nodes":[{"frontmatter":{"date":"February 13, 2022","title":"Ladybug Game","description":"Number guessing game"},"id":"c23acd4d-571a-503d-a7bb-9632dfd66ac6","slug":"ladybug-game"}]}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
