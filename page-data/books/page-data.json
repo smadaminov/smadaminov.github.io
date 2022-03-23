@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-books-index-js",
     "path": "/books/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Little {{ Nerd }} Adventure"}},"allMdx":{"nodes":[{"frontmatter":{"date":"July 24, 2021","title":"Self Taught Computer Scientist"},"id":"6aea75ff-61a0-5fe7-bd0d-e45a9ac60705","slug":"self-taught-cs"}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Little {{ Nerd }} Adventure"}},"allMdx":{"nodes":[{"frontmatter":{"date":"March 23, 2022","title":"Accelerated C++: Practical Programming by Example"},"id":"9f08a586-f6fd-5224-b3f3-ba20b73de735","slug":"accelerated-cpp"},{"frontmatter":{"date":"July 24, 2021","title":"Self Taught Computer Scientist"},"id":"6958417b-2848-55e8-a05d-df3cd2e6c9d1","slug":"self-taught-cs"}]}},"pageContext":{}},
     "staticQueryHashes": ["2841359383","3257411868"]}
